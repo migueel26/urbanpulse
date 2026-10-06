@@ -1,4 +1,4 @@
-ADR-001: Modelo de base de datos en Supabase+ PostgreSQL
+ADR-001: Modelo de base de datos desplegada en un contenedor en PostgreSQL
 
 ### Estado
 Proposed
@@ -7,8 +7,16 @@ Proposed
 Se necesita almacenar todos los datos necesarios para la aplicación: desde incidencias hasta usuarios o distritos.
 
 ### Opciones consideradas
-1. 
-2. 
-3. 
+1. Supabase (BaaS)
+2. Docker
+
 ### Decisión
-Utilizar 
+Utilizar un archivo **docker-compose** con persistencia de datos.
+
+### Consecuencias
++ Facilidad de implementación
++ Offline
++ Gratuito
+
+- Más complicado de centralizar
+- Gasta recursos locales
