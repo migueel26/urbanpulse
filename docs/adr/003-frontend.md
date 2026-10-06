@@ -1,4 +1,4 @@
-ADR-003: Utilización de React Native que permite una aplicación multiplataforma
+ADR-003: Utilización de una librería o framework que permite una aplicación multiplataforma
 
 ### Estado
 Proposed

@@ -1,4 +1,4 @@
-ADR-001: Modelo de base de datos desplegada en un contenedor en PostgreSQL
+ADR-001: Modelo de base de datos utilizando PostgreSQL
 
 ### Estado
 Proposed
